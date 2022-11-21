@@ -1,0 +1,12 @@
+#include "stdio.h"
+int main () {
+	int x,y,chuvi, dientich;
+	printf ("chieu dai x = ");
+	scanf ("%d", &x);
+	printf("chieu rong y = ");
+	scanf("%d", &y);
+	chuvi = (x+y)*2;
+	dientich = x*y;
+	printf("\n chuvi = %d", chuvi);
+	printf("\n dientich = %d", dientich);
+}
